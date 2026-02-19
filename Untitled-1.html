@@ -1,0 +1,16 @@
+<ul>
+        <h4>Model Performance & Evaluation</h4>
+        <li>Dataset: Twitter US Airline Sentiment dataset (airline_sentiment.csv) with 14K+ labeled tweets (Positive, Negative, Neutral).</li>
+        <li>Model: Many-to-One LSTM trained for Sentiment Classification.</li>
+        <li>Training: Preprocessed text using tokenization, padding, and embeddings; trained with categorical cross-entropy loss and Adam optimizer.</li>
+        <h4>Key Results</h4>
+        <li>Accuracy: ~88% on validation set</li>
+        <li>F1-Score (Macro): ~0.87</li>
+        <li>Precision / Recall: Balanced across positive and negative classes; slightly lower recall for neutral due to class imbalance.</li>
+        <li>Confusion Matrix: Shows strong classification for Positive/Negative, minor misclassifications in Neutral.</li>
+        <h4>KPIs Used</h4>
+        <li>Loss vs Epochs & Accuracy vs Epochs (to measure convergence and avoid overfitting).</li>
+        <li>F1-score (to evaluate performance across imbalanced classes).</li>
+        <li>Training Time per Epoch (efficiency check).</li>
+        <li>Text Generation Quality (evaluated qualitatively using generated text from alice.txt).</li>
+      </ul>
